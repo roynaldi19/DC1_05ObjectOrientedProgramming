@@ -1,3 +1,3 @@
 
-rootProject.name = "MPK_05ObjectOrientedProgramming"
+rootProject.name = "DC1_05ObjectOrientedProgramming"
 

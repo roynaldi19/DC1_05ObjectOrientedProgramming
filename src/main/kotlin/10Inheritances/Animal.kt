@@ -1,4 +1,4 @@
-package `10Inheritances `
+package `10Inheritances`
 
 open class Animal(val name: String, val weight: Double, val age: Int, val isCarnivore: Boolean){
 

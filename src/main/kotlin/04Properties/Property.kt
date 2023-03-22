@@ -1,4 +1,4 @@
-package `04Properties `
+package `04Properties`
 
 class Animal{
     var name: String = "Dicoding Miaw"

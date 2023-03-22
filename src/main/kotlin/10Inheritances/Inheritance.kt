@@ -1,4 +1,4 @@
-package `10Inheritances `
+package `10Inheritances`
 
 fun main() {
     val cat1 = Cat("Manis", 3.4, 5, true, "Putih", 4)

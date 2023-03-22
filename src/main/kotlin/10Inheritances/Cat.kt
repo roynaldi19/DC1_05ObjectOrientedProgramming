@@ -1,4 +1,4 @@
-package `10Inheritances `
+package `10Inheritances`
 
 class Cat(name: String, weight: Double, age: Int, isCarnivore: Boolean, val furColor: String, val numberOfFeet: Int) :
     Animal(name, weight, age, isCarnivore) {
