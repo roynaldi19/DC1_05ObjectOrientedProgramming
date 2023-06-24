@@ -3,7 +3,7 @@ package `17ExceptionHandling`
 
 fun main() {
     val someStringValue: String? = null
-    var someIntValue: Int = 0
+    var someIntValue= 0
 
     try {
         someIntValue = someStringValue!!.toInt()

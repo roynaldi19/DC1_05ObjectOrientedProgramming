@@ -1,6 +1,8 @@
-package `10Inheritances`
+package `12AbstractClass`
 
-open class Animal(val name: String, val weight: Double, val age: Int, val isCarnivore: Boolean){
+
+
+abstract class Animal(val name: String, val weight: Double, val age: Int, val isCarnivore: Boolean){
 
     open fun eat(){
         println("$name sedang makan!")
@@ -16,7 +18,7 @@ open class Animal(val name: String, val weight: Double, val age: Int, val isCarn
 }
 
 class Cat(name: String, weight: Double, age: Int, isCarnivore: Boolean, val furColor: String, val numberOfFeet: Int) :
-        Animal(name, weight, age, isCarnivore) {
+    Animal(name, weight, age, isCarnivore) {
 
     fun playWithHuman() {
         println("$name bermain bersama Manusia !")
@@ -31,10 +33,8 @@ class Cat(name: String, weight: Double, age: Int, isCarnivore: Boolean, val furC
     }
 }
 
-fun main() {
-    val cat1 = Cat("Manis", 3.4, 5, true, "Putih", 4)
-    cat1.playWithHuman()
-    cat1.eat()
-    cat1.sleep()
-    cat1.likeCoding()
+fun main(){
+    // abtrack class hanya bisa di turunkan tidak bisa di jakin objek
+    //val reptil = Animal("Crocodile", 2.6, 1, true)
+
 }
